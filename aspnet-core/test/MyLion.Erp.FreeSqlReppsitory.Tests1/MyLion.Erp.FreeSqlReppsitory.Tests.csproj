@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<Import Project="..\..\..\common.props" />
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<RootNamespace>MyLion.Erp</RootNamespace>
+		<IsPackable>false</IsPackable>
+	</PropertyGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\..\src\MyLion.Erp.FreeSqlReppsitory\MyLion.Erp.FreeSqlReppsitory.csproj" />
+	  <ProjectReference Include="..\MyLion.Erp.TestBase\MyLion.Erp.TestBase.csproj" />
+	</ItemGroup>
+
+</Project>

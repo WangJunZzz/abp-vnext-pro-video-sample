@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <RootNamespace>MyLion.Erp</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\MyLion.Erp.Domain.Shared\MyLion.Erp.Domain.Shared.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+
+        <PackageReference Include="Volo.Abp.ObjectExtending" />
+        <PackageReference Include="Lion.AbpPro.BasicManagement.Application.Contracts" />
+        <PackageReference Include="Lion.AbpPro.NotificationManagement.Application.Contracts" />
+        <PackageReference Include="Lion.AbpPro.DataDictionaryManagement.Application.Contracts" />
+    </ItemGroup>
+
+
+</Project>

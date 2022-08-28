@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>MyLion.Erp</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MyLion.Erp.Application.Contracts\MyLion.Erp.Application.Contracts.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+
+    <PackageReference Include="Lion.AbpPro.BasicManagement.HttpApi.Client"/>
+    <PackageReference Include="Lion.AbpPro.NotificationManagement.HttpApi.Client"/>
+    <PackageReference Include="Lion.AbpPro.DataDictionaryManagement.HttpApi.Client"/>
+  </ItemGroup>
+
+</Project>

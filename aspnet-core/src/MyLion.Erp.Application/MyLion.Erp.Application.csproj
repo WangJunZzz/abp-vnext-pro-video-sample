@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <RootNamespace>MyLion.Erp</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\MyLion.Erp.Domain\MyLion.Erp.Domain.csproj" />
+        <ProjectReference Include="..\MyLion.Erp.Application.Contracts\MyLion.Erp.Application.Contracts.csproj" />
+        <ProjectReference Include="..\MyLion.Erp.FreeSqlRepository\MyLion.Erp.FreeSqlRepository.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+
+        <PackageReference Include="Volo.Abp.BackgroundJobs.HangFire" />
+        <PackageReference Include="Lion.AbpPro.BasicManagement.Application" />
+        <PackageReference Include="Lion.AbpPro.NotificationManagement.Application" />
+        <PackageReference Include="Lion.AbpPro.DataDictionaryManagement.Application" />
+    </ItemGroup>
+
+</Project>
